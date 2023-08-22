@@ -14,5 +14,6 @@ export const GlobalStyles = createGlobalStyle `
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #c4c3c3;
+    font-family: 'Inter', sans-serif;
   }
 `
