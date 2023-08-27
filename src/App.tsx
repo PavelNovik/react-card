@@ -2,17 +2,17 @@ import React from 'react';
 import './App.css';
 import styled from "styled-components";
 import background from './images/pic1.jpg';
-import {ActionBtn} from "./components/Button.styled";
-import {ImgContainer} from "./components/ImgContainer.styled";
-import {Title, Article} from "./components/TextContent.styled";
-import {WrapperBox} from "./components/WrapperBox";
+import { ActionBtn } from "./components/Button.styled";
+import { ImgContainer } from "./components/ImgContainer.styled";
+import { Title, Article } from "./components/TextContent.styled";
+import { WrapperBox } from "./components/WrapperBox";
 
 
 function App() {
     return (
         <div className="App">
             <Box>
-                <ImgContainer img={background}/>
+                <ImgContainer img={background} />
                 <WrapperBox>
                     <Title>Headline</Title>
                     <Article>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in
